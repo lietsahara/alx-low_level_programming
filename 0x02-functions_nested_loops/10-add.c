@@ -6,7 +6,7 @@ int add(int a,int b)
 	x = a + b;
 	printf("%d/n",x);
 }
-int main()
+int main(void)
 {
 	add(89,9);
 	return 0;

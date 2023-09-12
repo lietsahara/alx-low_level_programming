@@ -9,7 +9,7 @@ int add(int a,int b)
 	return 0;
 }
 
-int main(void)
+int main()
 {
 	add(89,9);
 	return 0;

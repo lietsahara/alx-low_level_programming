@@ -1,11 +1,13 @@
 #include <stdio.h>
 
-int main
+int add(int a,int b)
 {
 	int x;
-	int a =89;
-	int b = 9;
-	int x = a + b;
-	print (%d/n,x);
+	x = a + b;
+	printf("%d/n",x);
+}
+int main()
+{
+	add(89,9);
 	return 0;
 }

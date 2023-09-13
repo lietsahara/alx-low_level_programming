@@ -1,6 +1,9 @@
 #include <stdio.h>
 
-int main()
+/*
+ * printing out _putchar
+ */
+int main(void)
 {
 	printf("_putchar");
 	return 0;

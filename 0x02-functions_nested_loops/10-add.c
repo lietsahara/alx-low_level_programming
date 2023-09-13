@@ -8,9 +8,3 @@ int add(int a,int b)
 	printf("%d/n",x);
 	return 0;
 }
-
-int main(void)
-{
-	add(89,9);
-	return 0;
-}

@@ -1,7 +1,8 @@
 #include <stdio.h>
 
-/*
- * printing out _putchar
+/* main - running code
+ *
+ * return _putchar
  */
 int main(void)
 {

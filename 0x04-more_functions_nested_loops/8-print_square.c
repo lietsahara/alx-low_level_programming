@@ -9,4 +9,5 @@
 int print_square(int a)
 {
 	return a*a;
+	print (\n);		
 }

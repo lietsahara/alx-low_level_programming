@@ -8,6 +8,7 @@
 
 int print_square(int a)
 {
-	return a*a;
-	print (\n);		
+	int b;
+	b= a*a;
+	print("%d\n",b);		
 }

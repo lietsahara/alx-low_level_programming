@@ -8,7 +8,7 @@
 
 int print_square(int a)
 {
-	int b;
-	b= a*a;
-	printf("%d\n",b);		
+	
+	return (a*a);
+	printf("\n");		
 }

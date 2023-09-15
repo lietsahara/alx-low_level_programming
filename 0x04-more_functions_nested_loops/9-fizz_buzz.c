@@ -1,11 +1,16 @@
 #include <stdio.h>
 
-/*main - returns fizzbuzz sequence*/
+/**
+ * main - entry point
+ * Description: prints fizz buzz sequence
+ * Return: 0
+ */
 
 int main(void)
 {
 	int i = 1;
-	while(i <= 100)
+
+	while (i <= 100)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
 		{
@@ -19,11 +24,11 @@ int main(void)
 		{
 			printf("Buzz ");
 		}
-		else 
+		else
 		{
-			printf("%d ",i);
+			printf("%d ", i);
 		}
 		i++;
 	}
-	return 0;
+	return (0);
 }

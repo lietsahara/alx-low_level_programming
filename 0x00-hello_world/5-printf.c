@@ -3,11 +3,11 @@
 /**
 * main - entry point
 * Description : 'the program outputs text values'
-* return : always return 0
+* Return: 0
 */
 
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art, ");
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }

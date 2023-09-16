@@ -1,13 +1,14 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_square - prints square
- * @a: input
+ * @size: input
  * Description: uses putchar
  * Return: 0
  */
 
-int print_square(int a)
+void print_square(int size)
 {
 	int i;
 	int j;
@@ -15,20 +16,19 @@ int print_square(int a)
 	i = 0;
 	j = 0;
 
-	if (a <= 0)
+	if (size <= 0)
 	{
 		putchar('\n');
 	}
 	else
 	{
-		for (i = 0; i < a; i++)
+		for (i = 0; i < size; i++)
 		{
-			for (j = 0; j < a; j++)
+			for (j = 0; j < size; j++)
 			{
 				putchar(35);
 			}
 			putchar('\n');
 		}
 	}
-	return (0);
 }

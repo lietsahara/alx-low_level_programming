@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
- * main - checks code
- *
+ * print_line - prints line
+ * @n: input value
  * returns - _ printed n times
  */
 

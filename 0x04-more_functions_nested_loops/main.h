@@ -5,6 +5,7 @@
 
 extern int a;
 
+int _isupper(int c);
 int print_square(int a);
 int  mul(int a,int b);
 void print_most_numbers(void);

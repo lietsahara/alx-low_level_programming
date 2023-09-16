@@ -2,13 +2,14 @@
 #include <stdio.h>
 
 /**
- * main - checks code
- *
- * return - multiplied numbers
+ * mul - multiplies numbers
+ * @a: input 1
+ * @b: input 2
+ * Return: multiplied numbers
  *
  */
 
-int mul(int a,int b)
+int mul(int a, int b)
 {
 	return (a * b);
 	printf("\n");

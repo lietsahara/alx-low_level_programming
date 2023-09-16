@@ -17,4 +17,5 @@ void print_numbers(void)
 	{
 		putchar(v);
 	}
+	putchar('\n');
 }

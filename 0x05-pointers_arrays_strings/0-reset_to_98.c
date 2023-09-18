@@ -1,6 +1,6 @@
 /**
  * reset_to_98 - changes value of integer to 98
- * @*n: input
+ * @n: input
  * Return: 0
  */
 

@@ -3,13 +3,16 @@
 
 /**
  * print_array - prints arrays followed by a dash and comma
+ * @a: pointer
+ * @n: position
  * Return: 0
  */
 
 void print_array(int *a, int n)
 {
 	int i;
-	i=0;
+
+	i = 0;
 
 	for (i = 0; i < n; i++)
 	{

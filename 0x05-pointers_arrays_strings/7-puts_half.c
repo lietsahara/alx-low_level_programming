@@ -1,19 +1,25 @@
 #include <stdio.h>
+#include <string.h>
 #include "main.h"
 
 /**
  * puts_half - divides array in half and prints
+ * @str: array
  * Return: 0
  */
 
 void puts_half(char *str)
 {
 	int i;
+	int x;
+
 	i = 0;
-	for (i = 0; i< strlen(str); i++)
+	x = strlen(str);
+
+	for (i = 0; i < x; i++)
 	{
 		printf("%c", str[i]);
-		if (i== (strlen(str) -1 )/2)
+		if (i == (x - 1) / 2)
 		{
 			printf("\n");
 		}

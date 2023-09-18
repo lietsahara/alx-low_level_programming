@@ -18,9 +18,9 @@ void puts_half(char *str)
 
 	for (i = 0; i < x; i++)
 	{
-		printf("%c", str[i]);
 		if (i == (x - 1) / 2)
 		{
+			printf("%c", str[i]);
 			printf("\n");
 		}
 	}

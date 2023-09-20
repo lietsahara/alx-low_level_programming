@@ -16,7 +16,7 @@ void rev_string(char *s)
 
 	first = 0;
 	last = strlen(s) - 1;
-	
+
 	while (first < last)
 	{
 		hold = s[last];

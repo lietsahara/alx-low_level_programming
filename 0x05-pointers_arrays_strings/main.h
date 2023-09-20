@@ -5,7 +5,7 @@
 #ifndef HEADER_FILE
 #define HEADER_FILE
 
-_putchar.c;
+char _putchar;
 
 #endif
 
